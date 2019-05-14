@@ -1,0 +1,56 @@
+﻿Build started 20/11/2015 23:22:42.
+     1>Project "D:\AXIS\WINDOWS\AXIS\AXNET\AXNET.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\SD\Archivos de programa\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AXNET.cpp stdafx.cpp
+         stdafx.cpp
+         AXNET.cpp
+     1>d:\axis\windows\axis\axnet\axsmwl.h(52): error C2059: syntax error: ']'
+     1>d:\axis\windows\axis\axnet\axgl.h(16): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::stringstream' (or there is no acceptable conversion)
+         c:\program files\windows kits\8.1\include\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(351): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(356): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(388): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(395): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(402): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(409): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         d:\axis\windows\axis\axnet\axgl.h(16): note: while trying to match the argument list '(std::stringstream, int)'
+     1>d:\axis\windows\axis\axnet\axgl.h(22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\axis\windows\axis\axnet\axgl.h(32): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::stringstream' (or there is no acceptable conversion)
+         c:\program files\windows kits\8.1\include\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(351): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(356): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(388): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(395): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(402): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(409): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         d:\axis\windows\axis\axnet\axgl.h(32): note: while trying to match the argument list '(std::stringstream, int)'
+     1>d:\axis\windows\axis\axnet\axgl.h(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>d:\axis\windows\axis\axnet\axgl.h(47): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::stringstream' (or there is no acceptable conversion)
+         c:\program files\windows kits\8.1\include\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(351): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(356): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(388): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(395): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(402): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(409): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         d:\axis\windows\axis\axnet\axgl.h(47): note: while trying to match the argument list '(std::stringstream, int)'
+     1>d:\axis\windows\axis\axnet\axgl.h(63): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::stringstream' (or there is no acceptable conversion)
+         c:\program files\windows kits\8.1\include\shared\guiddef.h(197): note: could be 'bool operator !=(const GUID &,const GUID &)'
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(351): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\exception(356): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(388): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(395): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(402): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+         c:\sd\archivos de programa\microsoft visual studio 14.0\vc\include\system_error(409): note: or       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+         d:\axis\windows\axis\axnet\axgl.h(63): note: while trying to match the argument list '(std::stringstream, int)'
+     1>d:\axis\windows\axis\axnet\axnet.cpp(58): error C3861: 'gets': identifier not found
+         Generating Code...
+     1>Done Building Project "D:\AXIS\WINDOWS\AXIS\AXNET\AXNET.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.18
